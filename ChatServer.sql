@@ -5,7 +5,6 @@ CREATE TABLE Users (
     email VARCHAR(100)
 );
 
-
 CREATE TABLE Messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
     sender_id INT NOT NULL,
@@ -22,3 +21,6 @@ CREATE TABLE Chatrooms (
     name VARCHAR(100) NOT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+
+
